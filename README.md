@@ -1,7 +1,10 @@
 # MCP4561_503_for_Arduino
 
-書きたいArduinoのスケッチファイルの中に"MCP4561_503.cpp"と"MCP4561_503.h"を追加
+書きたいArduinoのスケッチファイルの中に"MCP4561_503.cpp"と"MCP4561_503.h"を追加 <br>
 
+
+# サンプルコード
+```C++:title
 #include "MCP4561_503.h" //defineがいっぱいあるヘッダー
 #define SDA_PIN 0
 #define SCL_PIN 26
@@ -17,3 +20,4 @@ main(){
   好きなプログラムを書く
     MCP4561.Registor_Set(x); //0<x<255
 }
+```
