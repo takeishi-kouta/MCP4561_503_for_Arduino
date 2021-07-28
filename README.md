@@ -16,7 +16,7 @@ void setup(){
   MCP4561.Registor_Set(128);
 }
 
-main(){
+void loop(){
   好きなプログラムを書く
     MCP4561.Registor_Set(x); //0<x<255
 }
